@@ -156,8 +156,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Static.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Pure Virtual Founction_demo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Log.h" />

@@ -1,4 +1,0 @@
-#include <iostream>
-
-//Static.cpp
-
