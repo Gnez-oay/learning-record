@@ -155,10 +155,10 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
+    <ClInclude Include="Log.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Log.h" />
+    <ClCompile Include="虚析构函数_1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

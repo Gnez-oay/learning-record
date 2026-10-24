@@ -12,8 +12,8 @@ public:
 class Entity : public Printable
 {
 public:
-	//virtual std::string GetName() { return "Entity"; }
-	virtual std::string GetName() = 0;
+	virtual std::string GetName() { return "Entity"; }
+	//virtual std::string GetName() = 0;
 	std::string GetClassName() override { return "Entity"; }
 };
 
@@ -44,8 +44,8 @@ void Print(Printable* obj)
 
 int main()
 {
-	//Entity* e = new Entity ("123");
-	Entity* e = new Player("123");
+	Entity* e = new Entity ();
+	//Entity* e = new Player("123");
 	//printf(e);
 	//std::cout << e->GetName() << std::endl;
 
@@ -60,6 +60,6 @@ int main()
 	Print(e);
 	Print(p);
 	
-	std::cin.get();
+	std::cin.get(); 
 }
 
