@@ -155,7 +155,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Log.h" />
+    <ClCompile Include="虚析构.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="虚析构函数_1.cpp" />
