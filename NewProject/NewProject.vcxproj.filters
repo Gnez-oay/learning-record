@@ -18,12 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Log.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="虚析构函数_1.cpp">
+    <ClCompile Include="timelife.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
